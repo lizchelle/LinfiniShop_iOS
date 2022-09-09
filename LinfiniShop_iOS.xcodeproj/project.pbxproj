@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A29A234E28CA38C500115474 /* LinfiniShop_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29A234D28CA38C500115474 /* LinfiniShop_iOSApp.swift */; };
+		A29A235028CA38C500115474 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29A234F28CA38C500115474 /* ContentView.swift */; };
+		A29A235228CA38C800115474 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A29A235128CA38C700115474 /* Assets.xcassets */; };
+		A29A235528CA38C800115474 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A29A235428CA38C800115474 /* Preview Assets.xcassets */; };
+		A29A235F28CA38C800115474 /* LinfiniShop_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29A235E28CA38C800115474 /* LinfiniShop_iOSTests.swift */; };
+		A29A236928CA38C800115474 /* LinfiniShop_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29A236828CA38C800115474 /* LinfiniShop_iOSUITests.swift */; };
+		A29A236B28CA38C800115474 /* LinfiniShop_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29A236A28CA38C800115474 /* LinfiniShop_iOSUITestsLaunchTests.swift */; };
+		A29A237928CA4E0A00115474 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29A237828CA4E0A00115474 /* Product.swift */; };
+		A29A237E28CA543A00115474 /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29A237D28CA543A00115474 /* ProductCard.swift */; };
+		A29A238128CAF4CD00115474 /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29A238028CAF4CD00115474 /* CartButton.swift */; };
+		A29A238328CAF9C000115474 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29A238228CAF9C000115474 /* CartView.swift */; };
+		A29A238528CAFB9800115474 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29A238428CAFB9800115474 /* CartManager.swift */; };
+		A29A238728CB7BD900115474 /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29A238628CB7BD900115474 /* ProductRow.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A29A235B28CA38C800115474 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A29A234228CA38C500115474 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A29A234928CA38C500115474;
+			remoteInfo = LinfiniShop_iOS;
+		};
+		A29A236528CA38C800115474 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A29A234228CA38C500115474 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A29A234928CA38C500115474;
+			remoteInfo = LinfiniShop_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A29A234A28CA38C500115474 /* LinfiniShop_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinfiniShop_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A29A234D28CA38C500115474 /* LinfiniShop_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinfiniShop_iOSApp.swift; sourceTree = "<group>"; };
+		A29A234F28CA38C500115474 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A29A235128CA38C700115474 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A29A235428CA38C800115474 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A29A235A28CA38C800115474 /* LinfiniShop_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinfiniShop_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A29A235E28CA38C800115474 /* LinfiniShop_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinfiniShop_iOSTests.swift; sourceTree = "<group>"; };
+		A29A236428CA38C800115474 /* LinfiniShop_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinfiniShop_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A29A236828CA38C800115474 /* LinfiniShop_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinfiniShop_iOSUITests.swift; sourceTree = "<group>"; };
+		A29A236A28CA38C800115474 /* LinfiniShop_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinfiniShop_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A29A237828CA4E0A00115474 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		A29A237D28CA543A00115474 /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
+		A29A238028CAF4CD00115474 /* CartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButton.swift; sourceTree = "<group>"; };
+		A29A238228CAF9C000115474 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		A29A238428CAFB9800115474 /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		A29A238628CB7BD900115474 /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A29A234728CA38C500115474 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A29A235728CA38C800115474 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A29A236128CA38C800115474 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A29A234128CA38C500115474 = {
+			isa = PBXGroup;
+			children = (
+				A29A234C28CA38C500115474 /* LinfiniShop_iOS */,
+				A29A235D28CA38C800115474 /* LinfiniShop_iOSTests */,
+				A29A236728CA38C800115474 /* LinfiniShop_iOSUITests */,
+				A29A234B28CA38C500115474 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A29A234B28CA38C500115474 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A29A234A28CA38C500115474 /* LinfiniShop_iOS.app */,
+				A29A235A28CA38C800115474 /* LinfiniShop_iOSTests.xctest */,
+				A29A236428CA38C800115474 /* LinfiniShop_iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A29A234C28CA38C500115474 /* LinfiniShop_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A29A234D28CA38C500115474 /* LinfiniShop_iOSApp.swift */,
+				A29A237F28CA627E00115474 /* Views */,
+				A29A237A28CA539500115474 /* Components */,
+				A29A237728CA4BA000115474 /* Models */,
+				A29A235128CA38C700115474 /* Assets.xcassets */,
+				A29A235328CA38C800115474 /* Preview Content */,
+				A29A238428CAFB9800115474 /* CartManager.swift */,
+			);
+			path = LinfiniShop_iOS;
+			sourceTree = "<group>";
+		};
+		A29A235328CA38C800115474 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A29A235428CA38C800115474 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A29A235D28CA38C800115474 /* LinfiniShop_iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				A29A235E28CA38C800115474 /* LinfiniShop_iOSTests.swift */,
+			);
+			path = LinfiniShop_iOSTests;
+			sourceTree = "<group>";
+		};
+		A29A236728CA38C800115474 /* LinfiniShop_iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A29A236828CA38C800115474 /* LinfiniShop_iOSUITests.swift */,
+				A29A236A28CA38C800115474 /* LinfiniShop_iOSUITestsLaunchTests.swift */,
+			);
+			path = LinfiniShop_iOSUITests;
+			sourceTree = "<group>";
+		};
+		A29A237728CA4BA000115474 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A29A237828CA4E0A00115474 /* Product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A29A237A28CA539500115474 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A29A237D28CA543A00115474 /* ProductCard.swift */,
+				A29A238028CAF4CD00115474 /* CartButton.swift */,
+				A29A238628CB7BD900115474 /* ProductRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A29A237F28CA627E00115474 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A29A234F28CA38C500115474 /* ContentView.swift */,
+				A29A238228CAF9C000115474 /* CartView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A29A234928CA38C500115474 /* LinfiniShop_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A29A236E28CA38C800115474 /* Build configuration list for PBXNativeTarget "LinfiniShop_iOS" */;
+			buildPhases = (
+				A29A234628CA38C500115474 /* Sources */,
+				A29A234728CA38C500115474 /* Frameworks */,
+				A29A234828CA38C500115474 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LinfiniShop_iOS;
+			productName = LinfiniShop_iOS;
+			productReference = A29A234A28CA38C500115474 /* LinfiniShop_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A29A235928CA38C800115474 /* LinfiniShop_iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A29A237128CA38C800115474 /* Build configuration list for PBXNativeTarget "LinfiniShop_iOSTests" */;
+			buildPhases = (
+				A29A235628CA38C800115474 /* Sources */,
+				A29A235728CA38C800115474 /* Frameworks */,
+				A29A235828CA38C800115474 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A29A235C28CA38C800115474 /* PBXTargetDependency */,
+			);
+			name = LinfiniShop_iOSTests;
+			productName = LinfiniShop_iOSTests;
+			productReference = A29A235A28CA38C800115474 /* LinfiniShop_iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A29A236328CA38C800115474 /* LinfiniShop_iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A29A237428CA38C800115474 /* Build configuration list for PBXNativeTarget "LinfiniShop_iOSUITests" */;
+			buildPhases = (
+				A29A236028CA38C800115474 /* Sources */,
+				A29A236128CA38C800115474 /* Frameworks */,
+				A29A236228CA38C800115474 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A29A236628CA38C800115474 /* PBXTargetDependency */,
+			);
+			name = LinfiniShop_iOSUITests;
+			productName = LinfiniShop_iOSUITests;
+			productReference = A29A236428CA38C800115474 /* LinfiniShop_iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A29A234228CA38C500115474 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					A29A234928CA38C500115474 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					A29A235928CA38C800115474 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = A29A234928CA38C500115474;
+					};
+					A29A236328CA38C800115474 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = A29A234928CA38C500115474;
+					};
+				};
+			};
+			buildConfigurationList = A29A234528CA38C500115474 /* Build configuration list for PBXProject "LinfiniShop_iOS" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A29A234128CA38C500115474;
+			productRefGroup = A29A234B28CA38C500115474 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A29A234928CA38C500115474 /* LinfiniShop_iOS */,
+				A29A235928CA38C800115474 /* LinfiniShop_iOSTests */,
+				A29A236328CA38C800115474 /* LinfiniShop_iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A29A234828CA38C500115474 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A29A235528CA38C800115474 /* Preview Assets.xcassets in Resources */,
+				A29A235228CA38C800115474 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A29A235828CA38C800115474 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A29A236228CA38C800115474 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A29A234628CA38C500115474 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A29A238328CAF9C000115474 /* CartView.swift in Sources */,
+				A29A235028CA38C500115474 /* ContentView.swift in Sources */,
+				A29A238528CAFB9800115474 /* CartManager.swift in Sources */,
+				A29A234E28CA38C500115474 /* LinfiniShop_iOSApp.swift in Sources */,
+				A29A238728CB7BD900115474 /* ProductRow.swift in Sources */,
+				A29A237928CA4E0A00115474 /* Product.swift in Sources */,
+				A29A237E28CA543A00115474 /* ProductCard.swift in Sources */,
+				A29A238128CAF4CD00115474 /* CartButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A29A235628CA38C800115474 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A29A235F28CA38C800115474 /* LinfiniShop_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A29A236028CA38C800115474 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A29A236B28CA38C800115474 /* LinfiniShop_iOSUITestsLaunchTests.swift in Sources */,
+				A29A236928CA38C800115474 /* LinfiniShop_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A29A235C28CA38C800115474 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A29A234928CA38C500115474 /* LinfiniShop_iOS */;
+			targetProxy = A29A235B28CA38C800115474 /* PBXContainerItemProxy */;
+		};
+		A29A236628CA38C800115474 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A29A234928CA38C500115474 /* LinfiniShop_iOS */;
+			targetProxy = A29A236528CA38C800115474 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A29A236C28CA38C800115474 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A29A236D28CA38C800115474 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A29A236F28CA38C800115474 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LinfiniShop_iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = AFZ4445GLK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.linfininaturel.LinfiniShop-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A29A237028CA38C800115474 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LinfiniShop_iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = AFZ4445GLK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.linfininaturel.LinfiniShop-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A29A237228CA38C800115474 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AFZ4445GLK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.linfininaturel.LinfiniShop-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinfiniShop_iOS.app/LinfiniShop_iOS";
+			};
+			name = Debug;
+		};
+		A29A237328CA38C800115474 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AFZ4445GLK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.linfininaturel.LinfiniShop-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinfiniShop_iOS.app/LinfiniShop_iOS";
+			};
+			name = Release;
+		};
+		A29A237528CA38C800115474 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AFZ4445GLK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.linfininaturel.LinfiniShop-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LinfiniShop_iOS;
+			};
+			name = Debug;
+		};
+		A29A237628CA38C800115474 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AFZ4445GLK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.linfininaturel.LinfiniShop-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LinfiniShop_iOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A29A234528CA38C500115474 /* Build configuration list for PBXProject "LinfiniShop_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A29A236C28CA38C800115474 /* Debug */,
+				A29A236D28CA38C800115474 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A29A236E28CA38C800115474 /* Build configuration list for PBXNativeTarget "LinfiniShop_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A29A236F28CA38C800115474 /* Debug */,
+				A29A237028CA38C800115474 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A29A237128CA38C800115474 /* Build configuration list for PBXNativeTarget "LinfiniShop_iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A29A237228CA38C800115474 /* Debug */,
+				A29A237328CA38C800115474 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A29A237428CA38C800115474 /* Build configuration list for PBXNativeTarget "LinfiniShop_iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A29A237528CA38C800115474 /* Debug */,
+				A29A237628CA38C800115474 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A29A234228CA38C500115474 /* Project object */;
+}
